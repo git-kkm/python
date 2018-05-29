@@ -1,10 +1,9 @@
 # file two.py
 
-import one
-
 print("top-level in two.py")
 
-one.func()
+def func():
+    print("func() in two.py")
 
 if __name__ == "__main__":
     print("two.py is being run directly")
