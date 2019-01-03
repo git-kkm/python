@@ -17,8 +17,17 @@ def printList():
 	for i in range(1,21):
 		li.append(i**2)
 	
+	print( "Elements are: ", li)
+
+	print( "------------------------------")
 	print( "All elements are: ", li[:])
 	print( "The first five elements are: ", li[:5])
 	print( "The last five elements are: ", li[-5:])
+	print( "------------------------------")
+
+	print( "All elements are: ", li[0:-1])
+	print( "The first five elements are: ", li[0:5])
+	print( "The last five elements are: ", li[-5:0])
+
 
 printList()

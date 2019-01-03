@@ -11,8 +11,8 @@
 
 tempList = [30,40,50,60,70,90]
 
-tuple1=tuple(tempList)
-print("tuple1: ", tuple1)
+tuple1 = tuple(tempList)
+print('tuple1: ', tuple1)
 
 list1=list(tuple1)
 print("list1: ", list1)

@@ -1,10 +1,9 @@
-mylist = [1, 2, 3]
-for i in mylist:
-	print(i)
+# coding: utf-8 
 
-# These iterables are handy because you can read them as much as you wish, 
-# but you store all the values in memory and it’s not always what you want 
-# when you have a lot of values.
+# Iterables
+# These iterables are handy because you can read them as much as you wish,
+# But you store all the values in memory and it’s not always what you want
+# when you have a lot of values
 
 mylist = [x*x for x in range(3)]
 for i in mylist:
@@ -23,6 +22,7 @@ for i in mygenerator:
 print("calling generator second time")
 for j in mygenerator:
 	print(j)
+print("-----------------------------")
 
 # It is just the same except you used () instead of []. 
 # BUT, you can not perform for i in mygenerator a second time since generators 
@@ -38,8 +38,6 @@ def createGenerator():
 		yield i*i
 
 mygenerator = createGenerator() # create a generator
-print(mygenerator) # mygenerator is an object!
-# <generator object createGenerator at 0xb7555c34>
 for i in mygenerator:
 	print(i)
 
@@ -48,7 +46,7 @@ for i in mygenerator:
 
 # To master yield, you must understand that when you call the function, the 
 # code you have written in the function body does not run. The function only 
-# returns the generator object, this is a bit tricky 🙂
+# returns the generator object, this is a bit tricky
 
 # Then, your code will be run each time the for uses the generator.
 
