@@ -1,11 +1,6 @@
-# tuple() method can convert list to tuple
-# list()  method can convert tuple to list
+print("-----------------------------------------------")
 
 string2 = "34,67,55,33,12,98"
-
-#Convert String to List
-list2 = string2.split(",")
-print("list2: ", list2)
 
 ####Convert List to tuple
 tuple2=tuple(list2)

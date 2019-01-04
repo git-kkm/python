@@ -61,3 +61,10 @@ for i in mygenerator:
 # The generator is considered empty once the function runs but does not hit 
 # yield anymore. It can be because the loop had come to an end, or because 
 # you do not satisfy a “if/else” anymore.
+
+
+# When you see a function with yield statements, apply this easy trick to understand what will happen:
+# 1. Insert a line result = [] at the start of the function.
+# 2. Replace each yield expr with result.append(expr).
+# 3. Insert a line return result at the bottom of the function.
+# 4. Compare function to original definition.
