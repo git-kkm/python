@@ -1,3 +1,5 @@
+# coding: utf-8 
+
 # When the Python interpreter reads a source file, it executes all of the code found in it.
 
 # Before executing the code, it will define a few special variables. 
@@ -17,15 +19,14 @@
 def main():
 	print ("My name is %s and weight is %d kg!" % ('Krishna', 50) )
 
-	print("In main function:")
+	print('In main function:')
 	list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 	tuple1 = (2, 4, 6, 8, 10)
-	dict1 = {1:"one", 2:"two", 3:"three", 4:"four", 5:"five", 6:"six"}
+	dict1 = {1:"one", 2:"two", 3:"three", 4:"four", 5:"five"}
 
-	print('list1:' , list1)
-	print('tuple1:', tuple1)
-	print('dict1:' , dict1)
-
+	print('list1:  ', list1) 
+	print('tuple1: ', tuple1)
+	print('dict1:  ', dict1)
 
 if __name__ == '__main__':
 	main()

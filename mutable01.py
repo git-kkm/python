@@ -1,6 +1,14 @@
-def myfunc(a1, b1, c1):
-	a1 = 60
-	b1 = "This is new (inside function) string"
+# Python strings are immutable.
+
+# First a pointed to the string "Dog". 
+# Then you changed the variable a to point at a new string "Dog eats treats". 
+# You didn't actually mutate the string "Dog". 
+# Strings are immutable, variables can point at whatever they want.
+
+
+def funcAssign(a1, b1, c1):
+	a1 = 200
+	b1 = "new string funcAssign"
 	c1 = [10,20,30,40]
 	
 	print("----------------------")
@@ -9,10 +17,10 @@ def myfunc(a1, b1, c1):
 	print("inside func c1 : ", c1)
 	print("----------------------")
 
-def myfunc2(a1, b1, c1):
+def funcAdd(a1, b1, c1):
 	a1 += 50
-	b1 += " adding more"
-	c1.append(1000);        # this is important	
+	b1 += " add funcAdd"
+	c1.append(1000);        # KK: THIS IS IMPORTANT
 
 	print("----------------------")
 	print("inside func2 a1 : ", a1)
@@ -29,13 +37,13 @@ def main():
 	print("in main (before) b : ", b)
 	print("in main (before) c : ", c)
 
-	myfunc(a, b, c)
+	funcAssign(a, b, c)
 
 	print("in main (after) a : ", a)
 	print("in main (after) b : ", b)
 	print("in main (after) c : ", c)
 
-	myfunc2(a, b, c)
+	funcAdd(a, b, c)
 
 	print("in main (final) a : ", a)
 	print("in main (final) b : ", b)

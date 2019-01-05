@@ -11,17 +11,17 @@ def func():
 	dict2 = {}         # create empty dict. Do not use this notation.
 	dict3 = {1:"one", 2:"two", 3:"three", 4:"four", 5:"five"}
 
-	print('the list1 contains: ', list1)
-	print('the list2 contains: ', list2)
-	print('the list3 contains: ', list3)
+	print('list1  : ', list1)
+	print('list2  : ', list2)
+	print('list3  : ', list3)
 
-	print('the tuple1 contains: ', tuple1)
-	print('the tuple2 contains: ', tuple2)
-	print('the tuple3 contains: ', tuple3)
+	print('tuple1 : ', tuple1)
+	print('tuple2 : ', tuple2)
+	print('tuple3 : ', tuple3)
 
-	print('the dict1 contains: ', dict1)
-	print('the dict2 contains: ', dict2)
-	print('the dict3 contains: ', dict3)
+	print('dict1  : ', dict1)
+	print('dict2  : ', dict2)
+	print('dict3  : ', dict3)
 
 def main():
 	print('in main')

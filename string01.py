@@ -1,18 +1,16 @@
 print("-----------------------------------------------")
 
-string2 = "34,67,55,33,12,98"
+string1 = "34,67,55,33,12,98"
 
-####Convert List to tuple
-tuple2=tuple(list2)
-print("tuple2: ", tuple2)
+# Convert string to List
+list1 = string1.split(",")
+print("list1 : ", list1)
 
-####Convert tuple to List
-list3=list(tuple2)
-print("list3: ", list3)
 
-print("-----------------------------------------------")
+# CONVERT list to string. 
+# values should be a sequence of strings.
+string2 = ",".join(list1)
+print("string2 : ", string2)
 
-print("string2 type: ", type(string2))
-print("tuple2 type: ", type(tuple2))
-print("list2 type: ", type(list2))
-print("-----------------------------------------------")
+print("string1 type: ", type(string1))
+print("list1 type: ", type(list1))

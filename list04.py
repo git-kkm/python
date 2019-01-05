@@ -4,7 +4,10 @@
 # Use list.append() to add values into a list.
 # Use [n1:n2] to slice a list
 
-	li = list()   # create empty list
+li = list()   # create empty list
 
-	for i in range(1,21):
-		li.append(i**2)
+for i in range(1,11):
+	li.append(i**2)
+
+print("li: ", li)
+

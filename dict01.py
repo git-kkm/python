@@ -1,3 +1,5 @@
+# coding: utf-8
+
 def main():
 	print("in main function")
 	dict1 = {1:"one", 2:"two", 3:"three", 4:"four", 5:"five", 6:"six"}
