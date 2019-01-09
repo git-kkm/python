@@ -11,6 +11,10 @@ def func():
 	dict2 = {}         # create empty dict. Do not use this notation.
 	dict3 = {1:"one", 2:"two", 3:"three", 4:"four", 5:"five"}
 
+	# Empty Sets
+	empty_set = {} # This isn't right! It's a dict
+	empty_set = set()
+
 	print('list1  : ', list1)
 	print('list2  : ', list2)
 	print('list3  : ', list3)

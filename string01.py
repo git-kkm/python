@@ -1,16 +1,24 @@
-print("-----------------------------------------------")
+print('Hello World')
 
-string1 = "34,67,55,33,12,98"
+message  = 'Hello World'
 
-# Convert string to List
-list1 = string1.split(",")
-print("list1 : ", list1)
+print(message)
 
+# You can use a ' or " for strings
+# Use " if there is ' is part of the string and vice versa
+message2  = 'Bobby\'s World'
+message3  = "Bobby's World"
+message4  = 'Bobby"s World'
 
-# CONVERT list to string. 
-# values should be a sequence of strings.
-string2 = ",".join(list1)
-print("string2 : ", string2)
+# You can use s triple quote (single or double) for multiple strings
+message5 = '''Line 1
+Line2'''
 
-print("string1 type: ", type(string1))
-print("list1 type: ", type(list1))
+message6 = """Line 3
+Line4"""
+
+print(message2)
+print(message3)
+
+print(message5)
+print(message6)
