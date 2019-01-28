@@ -1,15 +1,22 @@
-string1 = "34,67,55,33,12,98"
+print("spam, eggs, ham".split(", "))
+#prints "['spam', 'eggs', 'ham']"
+# return a List (where each member is a string)
 
-# Convert string to List (where each member is a string)
-list1 = string1.split(",")
-print("list1 : ", list1)
+print(", ".join(["spam", "eggs", "ham"]))
+#prints "spam, eggs, ham"
+# argument is a list of strings.
 
+print("Hello ME".replace("ME", "world"))
+#prints "Hello world"
 
-# CONVERT list to string.
-# values should be a sequence of strings.
-string2 = ",".join(list1)
-print("string2 : ", string2)
+print("This is a sentence.".startswith("This"))
+# prints "True"
 
-print("string1 type: ", type(string1))
-print("list1 type: ", type(list1))
+print("This is a sentence.".endswith("sentence."))
+# prints "True"
 
+print("This is a sentence.".upper())
+# prints "THIS IS A SENTENCE."
+
+print("AN ALL CAPS SENTENCE".lower())
+#prints "an all caps sentence"

@@ -1,20 +1,16 @@
-# I wanted to test if a key exists in a dictionary before updating the value for the key. 
-# in is the intended way to test for the existence of a key in a dict.
+# Trying to index a key that isn't part of the dictionary returns a KeyError.
+
+# dict1 = {1:"one", 2:"two", 3:"three", 4:"four"}
+# print(dict1[1])
+# print(dict1[3])
+# print(dict1[5])
 
 
-def main():
-	print("in main function")
-	dict1 = {1:"one", 2:"two", 3:"three", 4:"four", 5:"five", 6:"six"}
+# Only immutable objects can be used as keys to dictionaries.
+# Immutable objects are those that can't be changed.
+# So far, the only mutable objects you've come across are lists and dictionaries.
+# Trying to use a mutable object as a dictionary key causes a TypeError.
 
-	k = 5
-	if k in dict1:
-		print('key: ', k, 'found in dict')
-		
-	k = 10
-	if k in dict1:
-		print('key: ', k, 'found in dict')
-
-	pass
-
-if __name__ == "__main__":
-	main()
+bad_dict = {
+  [1, 2, 3]: "one two three",
+}

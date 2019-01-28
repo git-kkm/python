@@ -3,6 +3,14 @@
 # print the first 5 elements in the list.
 # print the last 5 elements in the list.
 
+# Use list.append() to add values into a list.
+# Use [n1:n2] to slice a list
+
+# If the second number is omitted, it is taken to be the end.
+squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+print(squares[::2])
+
+
 li = [0,1,2,3,4,5,6,7,8,9,10]
 
 print( "li       : ", li)
@@ -31,3 +39,13 @@ print( "li[:]    : ", li[:])
 print( "pop      : ", li.pop())
 print( "li       : ", li)
 
+squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+print(squares[::2])
+print(squares[2:8:3])
+
+sqs = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+print(sqs[7:5:-1])
+
+# print reverse of the lise
+numbers = [1,2,3,4,5,6,7,8,9,10]
+print(numbers[::-1])
