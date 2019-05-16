@@ -4,16 +4,16 @@
 
 
 # What is the highest number printed by this code?
-# print(0)
-# assert "h" != "w"
-# print (1)
-# assert False
-# print(2)
-# assert True
-# print(3)
+print(0)
+assert "h" != "w"
+print (1)
+assert False
+print(2)
+assert True
+print(3)
 
 
 # The assert can take a second argument that is passed to the AssertionError raised if the assertion fails.
 
-temp = -10
-assert (temp >= 0), "Colder than absolute zero!"
+# temp = -10
+# assert (temp >= 0), "Colder than absolute zero!"

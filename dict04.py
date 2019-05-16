@@ -1,4 +1,6 @@
-# A useful dictionary method is get. It does the same thing as indexing, but if the key is not found in the dictionary it returns another specified value instead ('None', by default).
+# A useful dictionary method is get. 
+# It does the same thing as indexing, but if the key is not found in the dictionary 
+# it returns another specified value instead ('None', by default).
 
 pairs = {
     1: "apple",
@@ -6,6 +8,8 @@ pairs = {
     True: False,
     None: "True",
 }
+
+print("pairs: ", pairs)
 
 print(pairs.get("orange"))
 print(pairs.get(7))

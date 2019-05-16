@@ -6,13 +6,6 @@
 # TypeError: a function is called on a value of an inappropriate type;
 # ValueError: a function is called on a value of the correct type, but with an inappropriate value.
 
-try:
-   num1 = 7
-   num2 = 0
-   print (num1 / num2)
-   print("Done calculation")
-except ZeroDivisionError:
-   print("An error occurred... due to zero division")
 
 try:
    variable = 10
@@ -22,6 +15,16 @@ except ZeroDivisionError:
    print("Divided by zero")
 except (ValueError, TypeError):
    print("Error occurred")
+
+
+try:
+   num1 = 7
+   num2 = 0
+   print (num1 / num2)
+   print("Done calculation")
+except ZeroDivisionError:
+   print("An error occurred... due to zero division")
+
 
 # An except statement without any exception specified will catch all errors. These should be used sparingly, as they can catch unexpected errors and hide programming mistakes.
 

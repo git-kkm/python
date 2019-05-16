@@ -3,7 +3,12 @@
 
 # Tuples can be created without the parentheses, by just separating the values with commas.
 
-my_tuple = "one", "two", "three"
-print(my_tuple[0])
+tuple1 = "one", "two", "three"
+print(tuple1)
+print(tuple1[0])
+print(tuple1[0:2])
 
-print(my_tuple[0:2])
+tuple2 = ("one", "two", "three")
+print(tuple2)
+print(tuple2[0])
+print(tuple2[0:2])

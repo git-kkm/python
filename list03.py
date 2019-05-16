@@ -26,3 +26,4 @@ print('dict1  : ', dict1)
 print('dict2  : ', dict2)
 print('dict3  : ', dict3)
 
+print('empty_set  : ', empty_set)

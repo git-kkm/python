@@ -18,6 +18,7 @@
 
 def main():
 	print ("My name is %s and weight is %d kg!" % ('Krishna', 50) )
+	print ("My name is {} and weight is {} kg!".format('Krishna', 50) )
 
 	print('In main function:')
 	list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

@@ -1,19 +1,30 @@
-list_1 = ['History', 'Math', 'Physics', 'CompSci']
-print(list_1)
+# coding: utf-8 
 
-list_1.append('Biology')
-print(list_1)
+mylist = ['Zero', 'One', 'Two', 'Four']
+print(mylist)
 
-list_1.remove('History')
-print(list_1)
+# append method adds an element to the end of a list. This happens inplace.
+mylist.append('Five')
+print(mylist)
 
 # insert at index
-list_1.insert(1, 'Geography')
-print(list_1)
+mylist.insert(3, 'Three')
+print(mylist)
 
+# pop method removes an item at the index.
+# This method will also return the item you removed from the list.
+# If you don’t provide an index, it will by default remove the item at the last index.
+print( "pop      : ", mylist.pop())
+print( "mylist   : ", mylist)
 
-courses   = ['Math', 'Physics', 'Chemistry']
-courses_2 = ['History', 'Civics', 'Grography']
+mylist.remove('Four')
+print(mylist)
 
-courses.extend(courses_2)
-print(courses)
+# The index method returns the first index at which a value occurs.
+print( "mylist.index('three') : ", mylist.index('Three'))
+
+list1 = ['Math', 'Physics', 'Chemistry']
+list2 = ['History', 'Civics', 'Grography']
+
+list1.extend(list2)
+print(list1)

@@ -1,5 +1,5 @@
 print("spam, eggs, ham".split(", "))
-#prints "['spam', 'eggs', 'ham']"
+# prints ['spam', 'eggs', 'ham']
 # return a List (where each member is a string)
 
 print(", ".join(["spam", "eggs", "ham"]))

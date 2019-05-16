@@ -2,13 +2,13 @@
 list_1 = ['History', 'Math', 'Physics', 'CompSci']
 list_2 = list_1
 
-print(list_1)
-print(list_2)
+print("Before:" , list_1)
+print("Before:" , list_2)
 
-# list_1[0] = 'Art'
+list_1[0] = 'Art'
 
-# print(list_1)
-# print(list_2)
+print("After:" , list_1)
+print("After:" , list_2)
 
 
 # Immutable
@@ -26,4 +26,4 @@ print(list_2)
 # Sets
 cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
 
-print(cs_courses)
+print("cs_courses: ", cs_courses)

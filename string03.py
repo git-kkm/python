@@ -1,7 +1,5 @@
 message = 'Hello World'
 
-print(message.lower())
-print(message.upper())
 print(len(message))
 print(message.find('Universe'))
 
@@ -18,6 +16,6 @@ message = f'{greeting}, {name}'
 print(message)
 
 # prints all attributes and methods for that variable
-print(dir(message)) # pass object
+#print(dir(message)) # pass object
 
-print(help(str))    # pass class
+#print(help(str))    # pass class

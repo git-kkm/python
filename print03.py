@@ -4,3 +4,4 @@ for i in range(num):
 	li.append(i)
 
 print ("li : ", li)
+

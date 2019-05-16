@@ -28,6 +28,8 @@ def f(n):
 
 n = int(input("Enter a number: "))
 
+assert(n>0), "Enter value greater than 0"
+
 values = list()   # create empty list
 
 for x in range(0, n+1):
